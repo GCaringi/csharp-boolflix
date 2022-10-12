@@ -1,6 +1,8 @@
-﻿namespace csharp_boolflix.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
-public class Episode : MediaContent
+namespace csharp_boolflix.Models;
+
+public class Episode : MediaStructure
 {
     public int Id { get; set; }
     public int SeasonNumber { get; set; }

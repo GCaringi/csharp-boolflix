@@ -12,7 +12,7 @@ using csharp_boolflix.Context;
 namespace csharp_boolflix.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221012140232_InitialCreate")]
+    [Migration("20221012155058_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
